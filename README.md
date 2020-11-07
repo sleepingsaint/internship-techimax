@@ -1,16 +1,12 @@
 # geopointer
 
-A new Flutter project.
+## Completed:
 
-## Getting Started
+* Live Tracking of the location
+* Realtime updating the location in database (firestore) 
+* When ever there is a change in location app receives a push notification from firebase using firebase functions
+  * Push notification can be seen in the console. (I couldn't able to implement displaying the notification so I printed it in the console).
 
-This project is a starting point for a Flutter application.
+## Not Completed:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Implement the displaying of the notifications while the app is active.
